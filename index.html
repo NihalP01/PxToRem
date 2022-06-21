@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>PxToRem</title>
+</head>
+
+<body>
+    <div class="div_main">
+        <div class="div_container_card">
+            <h5>PX to Rem converter</h5>
+            <div class="div_input">
+                <input id="pxVal" type="number" value="" class="input" placeholder="Enter size in Pixel" />
+                <input id="remVal" class="input" style="margin-top: 4px; background: lightgray;" disabled
+                    placeholder="size in rem" />
+                <button onclick={convertValue()} class="btn_convert">Convert</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

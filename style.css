@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 12px;
+}
+
+.div_main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div_container_card {
+  width: 300px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgb(246, 246, 246);
+}
+
+.div_input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.btn_convert {
+  margin-top: 4px;
+  background-color: DodgerBlue;
+  border: 0;
+  font-size: 10px;
+  border-radius: 4px;
+  padding: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.input {
+  border: 0;
+  border-radius: 4px;
+  font-size: 10px;
+  padding: 6px;
+}
